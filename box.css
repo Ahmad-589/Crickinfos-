@@ -14,7 +14,10 @@ nav{
     padding-left: 4px;
     margin-top: 0px;
     margin-bottom: 0px;
-    
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 .nav-2 p{
     color: azure;
@@ -26,9 +29,9 @@ nav{
     background-color: rgb(147, 197, 253)/0.5;
     padding-top: 0%;
     padding-right: 20px;
-    white-space: nowrap;s+
+    white-space: nowrap;
     overflow-x: auto;
-    overflow-y: hidden
+    overflow-y: hidden;
 }
 .box{
     display: flex;
