@@ -1,0 +1,87 @@
+nav{
+    margin-bottom: 0px;
+}
+.contain{
+    background-color: rgb(85, 154, 232);
+}
+.cont{
+    background-color: rgb(85, 154, 232);
+    width: 90%;
+    
+}
+.nav-2{
+    display: flex;
+    padding-left: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.nav-2 p{
+    color: azure;
+    margin-bottom: 0%;
+    margin: 8px;
+    margin-top: 0px;
+}
+#main{
+    background-color: rgb(147, 197, 253)/0.5;
+    padding-top: 0%;
+    padding-right: 20px;
+    white-space: nowrap;s+
+    overflow-x: auto;
+    overflow-y: hidden
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 140px;
+    width: 300px;
+    padding-left: 8px;
+    padding-right: 5px;
+    margin: 10px;
+    margin-top: 0px;
+    border-radius: 0.75rem;
+    display: inline-block;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    padding-right: 22%;
+}
+.line{
+    margin-top: 5px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    height: 300px;
+    width: 900px;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 5px;
+    margin: 20px;
+    display: inline-block;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.list2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 6px;
+    
+}
+.list2 a{
+    color: black;
+    margin: 5px;
+}
