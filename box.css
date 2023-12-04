@@ -1,8 +1,12 @@
 nav{
     margin-bottom: 0px;
 }
+body{
+    margin-top: 12px;
+}
 .contain{
     background-color: rgb(85, 154, 232);
+    margin-top: 66px;
 }
 .cont{
     background-color: rgb(85, 154, 232);
@@ -37,23 +41,25 @@ nav{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    height: 140px;
-    width: 300px;
+    height: 132px;
+    width: 315px;
     padding-left: 8px;
     padding-right: 5px;
-    margin: 10px;
+    margin: 5px;
     margin-top: 0px;
     border-radius: 0.75rem;
     display: inline-block;
+    font-size: small;
 }
 .list{
     display: flex;
-    justify-content: space-between;
-    margin-top: 6px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     padding-right: 22%;
 }
 .line{
-    margin-top: 5px;
+    margin-top: 8px;
     font-size: 12px;
     margin-bottom: 0px;
 }
@@ -75,16 +81,74 @@ nav{
     justify-content: center;
     
 }
-
+.coment{
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
 .list2{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin: 4px;
     font-weight: bold;
     margin-top: 6px;
+   
+  
     
 }
 .list2 a{
     color: black;
     margin: 5px;
+   
+}
+
+.pics{
+    background-color: rgb(53, 50, 50);
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.boxes{
+        display: flex;
+        flex-wrap: wrap;
+        background-color:rgb(53, 50, 50) ;
+        margin: 10px;
+        margin-top: 10px;
+        display: inline-block;
+}
+.panel2{
+    background-color: black;
+    color: white;
+    padding-top: 74px;
+    height: 350px;
+    text-align: center;
+    
+}
+.panel3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 70px;
+    background-color: black;
+    color: white;
+    height: auto;
+    padding-bottom: 30px;
+    
+}
+.panel3 ul p{
+    color: rgb(138, 138, 133);
+    font-size: x-small;
+}
+.panel4{
+    background-color: rgb(50, 50, 50);
+    color: rgb(155, 144, 145);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    font-size: x-small;
+}
+.panel4 p{
+    margin: 0px;
 }
